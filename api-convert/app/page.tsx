@@ -97,7 +97,7 @@ export default function Home() {
                 <option key={opt.id} value={opt.id} className="text-lg">
                   {opt.icon} {opt.label}
                 </option>
-              ))}
+              ))}clear
             </select>
           </div>
 
